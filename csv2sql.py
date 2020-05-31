@@ -120,7 +120,7 @@ r = 1
 while( r < int(sMaxRub)+1 ):
     if ( r == 1 ):
         #
-        print( dDicoSql["rub:" + str(r)] + " interger primary key" ),
+        print( dDicoSql["rub:" + str(r)] + " integer primary key" ),
     else:
         #    
         print( dDicoSql["rub:" + str(r)] + " varchar(50)" ),
